@@ -1,6 +1,7 @@
 name: Compile YARA Rules
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - 'yara/**'
