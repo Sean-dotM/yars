@@ -15,5 +15,5 @@ rule win_go_compiled
         $go4 = "go1.2"
 
     condition:
-        unit16(0) == 0x5a4d and 2 of them
+        uint16(0) == 0x5a4d and 2 of them
 }
