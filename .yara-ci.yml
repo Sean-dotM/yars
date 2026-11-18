@@ -1,0 +1,11 @@
+branches:
+  accept:
+  - "main"
+  - "rule/**"
+files:
+  accept:
+  - "**.yar"
+  - "**.yara"
+false_positives:
+  ignore:
+   - file: "yara/sourcing/**"
